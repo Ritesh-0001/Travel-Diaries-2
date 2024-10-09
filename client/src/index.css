@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  height: 100vh;
+}
+
+.ql-editor {
+  font-size: 1.05rem;
+}
+
+.post-content p {
+  margin-bottom: 0.5rem;
+}
+
+.post-content h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: sans-serif;
+  margin: 1.5rem 0;
+}
+
+.post-content h2 {
+  font-size: 1.4rem;
+  font-family: sans-serif;
+  margin: 1.5rem 0;
+}
+
+.post-content a {
+  color: rgb(73, 149, 199);
+  text-decoration: none;
+}
+
+.post-content a:hover {
+  text-decoration: underline;
+}
+
+.dark .post-content a {
+  color: red;
+}
+
+/* Header styles */
+.navbar {
+  background-color: #6b46c1; /* Purple background color */
+  padding: 1rem; /* Padding around the navbar */
+}
+
+.navbar a {
+  color: #ffffff; /* White text color */
+  font-size: 1.5rem; /* Larger font size */
+}
+
+.navbar a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+.navbar .search-input {
+  width: 300px; /* Adjust width of the search input */
+}
+
+.navbar .search-button {
+background-color: #ffffff; /* White background for search button */
+  color: #6b46c1; /* Purple text color for search button */
+}
+
+.navbar .avatar {
+  width: 40px; /* Adjust size of the avatar */
+  height: 40px;
+}
+
+/* Dark mode styles */
+.dark .navbar {
+  background-color: #1a202c; /* Dark background color */
+}
+
+.dark .navbar a {
+  color: #ffffff; /* White text color */
+}
+
+.dark .navbar a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+.dark .navbar .search-button {
+  background-color: #2d3748; /* Darker background for search button */
+  color: #ffffff; /* White text color for search button */
+}
